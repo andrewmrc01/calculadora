@@ -1,4 +1,9 @@
+import { useState } from "react"
+import "./style.scss"
+
 export default function App() {
+
+  const [primeiroValor, setSegundoValor] =useState()
   return (
     <main>
     <h1>Calculadora</h1>
